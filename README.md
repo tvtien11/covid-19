@@ -1,19 +1,34 @@
-# Covid-19 Stats App
+# Coronavirus Tracker
+Coronavirus tracker for web with chart.
 
-A web application to display Coronavirus Diseases (COVID19) statistics from different countries. [Check Live Demo](https://richardkeep.dev/)
+![image](corona_image.png)
 
-Developed using  [TailwindCSS](https://tailwindcss.com/), [Alpinejs](https://github.com/alpinejs/alpine), [Laravel](https://laravel.com), [Livewire](https://laravel-livewire.com/) **T.A.L.L Stack**  💪
+## Demo
+https://coronavirus-track.herokuapp.com/
 
-![Screenshot from 2020-03-25 13-10-00](https://user-images.githubusercontent.com/3874381/77525358-f3f20e80-6e99-11ea-964b-a22a936d7b43.png)
+## Features
+* __Live data__: Shows the most recent data, and updates automatically.
+* __GeoChart__:
+   * __Current state chart__ for all countries.
+* __Search__ for countries.
+* __Statistics__: Including the number of confirmed, recovered, and deaths, in addition to percents.
 
-## Installation
-- Clone the repo `git clone https://github.com/richardkeep/covid-19.git`
-- Run `composer install` to pull in all the dependencies
-- Run `php artisan server` to start the inbuilt PHP server
-- You are all set to go. Visit http://127.0.0.1:8000/ to view the latest Covid-19 Stats
+## Author
+Furkan Kahveci (furkankahveci@hotmail.com.tr)
 
-## Todo
-- Add some cool animations and transitions.
+### Data
+Data is provided by JHU CSSE (https://github.com/CSSEGISandData/COVID-19).
 
-## API
-https://github.com/richardkeep/covid-19-api
+### Template
+* [Appzia](https://themesdesign.in/appzia/index.html): Admin template.
+
+### Libraries
+* [Codeigniter](https://github.com/bcit-ci/CodeIgniter): Open Source PHP Framework.
+* [GeoChart](https://developers.google.com/chart/interactive/docs/gallery/geochart): Show a map of a country, continent, or region.
+
+## Contribute
+Please feel free to contribute pull requests or create issues for bugs and feature requests.
+
+## Contributors
+<img src="https://avatars0.githubusercontent.com/u/7875387?s=400&u=2676a160ca106c14d67b1b8c0e83e9c2ba04ea73&v=4" alt="drawing" width="100" height="100"/>
+<a href="https://github.com/satrianivzla" target="_blank">Simon</a>
